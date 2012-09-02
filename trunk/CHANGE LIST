@@ -1,7 +1,7 @@
 Contains: 
 
 Patch_D2.mpq
-
+AutoMagic.txt
 
 
 
@@ -10,6 +10,22 @@ Patch_D2.mpq
 
 Files Changed:
 
+CharStats.txt
 CubeMain.txt
 Runes.txt
 UniqueItems.txt
+ItemStatCost.txt
+Levels.txt
+MagicPrefix.txt
+MagicSuffix.txt
+Misc.txt
+Missiles.txt
+MonLvl.txt
+MonStats.txt
+Objects.txt
+Properties.txt
+Skills.txt
+SetItems.txt
+States.txt
+TreasureClassEx.txt
+Weapons.txt
