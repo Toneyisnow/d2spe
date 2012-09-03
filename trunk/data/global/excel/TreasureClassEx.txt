@@ -545,10 +545,10 @@ Act 3 (N) Champ B	13	48	-8					0	Act 3 (N) Citem B	4	Act 3 (N) Cpot B	1	"gld,mul
 Act 3 (N) Champ C	13	50	-8					0	Act 3 (N) Citem C	4	Act 3 (N) Cpot C	1	"gld,mul=512"	1	Act 3 (N) Cpot C	2																0
 Act 4 (N) Champ A	13	51	-8					0	Act 4 (N) Citem A	4	Act 4 (N) Cpot A	1	"gld,mul=512"	1	Act 4 (N) Cpot A	2																0
 Act 4 (N) Champ B	13	54	-8					0	Act 4 (N) Citem B	4	Act 4 (N) Cpot B	1	"gld,mul=512"	1	Act 4 (N) Cpot B	2																0
-Act 4 (N) Champ C	13	56	-8					0	Act 4 (N) Citem C	4	Act 4 (N) Cpot C	1	"gld,mul=512"	1	Act 4 (N) Cpot C	2																
+Act 4 (N) Champ C	13	56	-8					0	Act 4 (N) Citem C	4	Act 4 (N) Cpot C	1	"gld,mul=512"	1	Act 4 (N) Cpot C	2																0
 Act 5 (N) Champ A	13	57	-8					0	Act 5 (N) Citem A	4	Act 5 (N) Cpot A	1	"gld,mul=512"	1	Act 5 (N) Cpot A	2																0
 Act 5 (N) Champ B	13	60	-8					0	Act 5 (N) Citem B	4	Act 5 (N) Cpot B	1	"gld,mul=512"	1	Act 5 (N) Cpot B	2																0
-Act 5 (N) Champ C	13	62	-8					0	Act 5 (N) Citem C	4	Act 5 (N) Cpot C	1	"gld,mul=512"	1	Act 5 (N) Cpot C	2																
+Act 5 (N) Champ C	13	62	-8					0	Act 5 (N) Citem C	4	Act 5 (N) Cpot C	1	"gld,mul=512"	1	Act 5 (N) Cpot C	2																0
 Act 1 (H) Champ A	13	63	-8					0	Act 1 (H) Citem A	4	Act 1 (H) Cpot A	1	"gld,mul=1024"	1	Act 1 (H) Cpot A	2																0
 Act 1 (H) Champ B	13	66	-8					0	Act 1 (H) Citem B	4	Act 1 (H) Cpot B	1	"gld,mul=1024"	1	Act 1 (H) Cpot B	2																0
 Act 1 (H) Champ C	13	68	-8					0	Act 1 (H) Citem C	4	Act 1 (H) Cpot C	1	"gld,mul=1024"	1	Act 1 (H) Cpot C	2																0
