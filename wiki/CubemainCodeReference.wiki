@@ -42,7 +42,7 @@ Would you really be able to create a ethereal set item, or was it just an exampl
 *NefariusDX:*
 the order is important (how ever sets can never spawn as ethereal) blizzard did this since if u would have 1 ethereal set item u would need to have all the other parts of that set as ethereal to in order to complete it how ever try it this way xh9,uni,eth,sock=1 will create a ethereal socket vamp gaze (make the level for the stuff match!) now xh9,sock=1,eth,uni would not work to my knowledge the code must be ORDERED
 
-*!ShadowTalon*
+!ShadowTalon
 what i would like to know is all the output formulas for cubemain such as the formulas that Sir_General uses on his rune mod i know you can add prefixes to items ,but i want to know if you can add the properties of the rune or gem in my case without typing up a **** load of new prefixes and suffixes so they would work the way i wanted them to
 
 *NefariusDX:*
