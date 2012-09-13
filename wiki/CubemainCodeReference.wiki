@@ -6,19 +6,19 @@ This resource originally appeared as a thread in the Phrozen Forums and we would
 item quality params
 
 low: low quality
-bas: base item (1.10 only) - input
-reg: base item (1.10 only) - output
-exc: exceptional item (1.10 only)
+bas: base item (1.10+) - input
+reg: base item (1.10+) - output
+exc: exceptional item (1.10+)
 nor: normal
 hiq: superior
-eli: elite item (1.10 only)
+eli: elite item (1.10+)
 eth: ethereal
 mag: magic
 rar: rare
 set: set
 uni: unique
 crf: crafted
-tmp: tempered item (1.10 only)
+tmp: tempered item (1.10+)
 any: any item
 
 others
@@ -32,6 +32,13 @@ qty : amount of same item (eg: hpot,qty=3 means 3 hp potions)
 upg : upgrades item normal>exceptional>elite
 usetype: uses base type of input1 for output
 useitem: uses item from input 1
+
+Other mods from Cubemain.txt (v1.12+):
+uns: unsocket (destroys gems)
+rep: repair (might need qty)
+rch: recharge (might need qty)
+mod: unclear (add mods to item? used for unique upgrade recipes)
+
 }}}
 
 For additional information, an abbreviated replica of the aforementioned thread has been provided below: 
