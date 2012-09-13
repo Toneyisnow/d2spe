@@ -34,10 +34,12 @@ usetype: uses base type of input1 for output
 useitem: uses item from input 1
 
 Other mods from Cubemain.txt (v1.12+):
+nrw: No runeword
 uns: unsocket (destroys gems)
 rep: repair (might need qty)
 rch: recharge (might need qty)
 mod: unclear (add mods to item? used for unique upgrade recipes)
+rem: ?
 
 }}}
 
