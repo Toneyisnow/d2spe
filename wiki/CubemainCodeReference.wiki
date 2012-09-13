@@ -4,6 +4,7 @@ This resource originally appeared as a thread in the Phrozen Forums and we would
 
 item quality params
 
+{{{
 nor=normal
 hiq=superior
 eth=ethereal
@@ -24,7 +25,7 @@ usetype=uses base type of input1 for output
 useitem=uses item from input 1
 qty=amount of same item (eg: hpot,qty=3 means 3 hp potions)
 upg=upgrades item normal>exceptional>elite
-
+}}}
 
 For additional information, an abbreviated replica of the aforementioned thread has been provided below: 
 
