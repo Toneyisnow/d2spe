@@ -5,28 +5,33 @@ This resource originally appeared as a thread in the Phrozen Forums and we would
 {{{
 item quality params
 
-nor=normal
-hiq=superior
-eth=ethereal
-rar=rare
-mag=magic
-uni=unique
-set=set
-crf=crafted
-low=low quality
-any=any item
+low: low quality
+bas: base item (1.10 only) - input
+reg: base item (1.10 only) - output
+exc: exceptional item (1.10 only)
+nor: normal
+hiq: superior
+eli: elite item (1.10 only)
+eth: ethereal
+mag: magic
+rar: rare
+set: set
+uni: unique
+crf: crafted
+tmp: tempered item (1.10 only)
+any: any item
 
 others
 
-noe=not ethereal
-nos=no socket (for input)
-sock=#sockets (eg: sock=4)
-pre=prefix (row # -2 from magicprefix)
-suf=suffix (row # -2 from magicsuffix)
-usetype=uses base type of input1 for output
-useitem=uses item from input 1
-qty=amount of same item (eg: hpot,qty=3 means 3 hp potions)
-upg=upgrades item normal>exceptional>elite
+noe : not ethereal
+nos : no socket (for input)
+sock: # sockets (eg: sock=4)
+pre : prefix (row # -2 from magicprefix)
+suf : suffix (row # -2 from magicsuffix)
+qty : amount of same item (eg: hpot,qty=3 means 3 hp potions)
+upg : upgrades item normal>exceptional>elite
+usetype: uses base type of input1 for output
+useitem: uses item from input 1
 }}}
 
 For additional information, an abbreviated replica of the aforementioned thread has been provided below: 
