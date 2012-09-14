@@ -35,8 +35,8 @@ hireling.txt:
 
 
 itemstatcost.txt:
-  * Elemental damages:the display of "adds XX-XX fire damage" and the others are hardcoded to use certain .tbl entries. the entries are found in string.tbl.[StrMod(element)DamageRange]. - [color=999999]Char[/color]
-  * All the passive_mastery_something stats seem to be badly hardcoded. they cannot accept negative values, and it seems like you cannot base op stats on them either for some reason i do not understand. there is probably quite a lot of hardcoded stuff in that file though, since the damagepercent line for example has to enhance the weapon damage, which is probably done by some hardcoded routine - [color=999999]Char[/color]
+  * Elemental damages:the display of "adds XX-XX fire damage" and the others are hardcoded to use certain .tbl entries. the entries are found in string.tbl.[StrMod(element)DamageRange]. - Char
+  * All the passive_mastery_something stats seem to be badly hardcoded. they cannot accept negative values, and it seems like you cannot base op stats on them either for some reason i do not understand. there is probably quite a lot of hardcoded stuff in that file though, since the damagepercent line for example has to enhance the weapon damage, which is probably done by some hardcoded routine - Char
   * For +to fire..poison e.tc skills you need to use same entry in itemstat. It's hardcoded to look into this specific stat. - kingpin
 
 
@@ -46,7 +46,7 @@ itemtypes.txt:
 
 charstats:
   * First item gets bonus in startskill
-  * No starting items can be magic, set, rare, unique, automagicked, etc. - [color=999999]RicFaith[/color]
+  * No starting items can be magic, set, rare, unique, automagicked, etc. - RicFaith
 
 
 Levels:
