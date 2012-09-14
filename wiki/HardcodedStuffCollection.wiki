@@ -3,10 +3,10 @@ The following is reproduced from Doombreed-x's thread "[Collection] The hardcode
 Generic equipement stuff:
 
   * Item Files incl ItemTypes, Weapons, Armor, Misc:
-  # WeaponDescs are hardcoded to specific itemtypes.
-  # swor = WeaponDescSword, jave = WeaponDescJavelin, etc.
-  # Blunt Undead Damage is badly hardcoded. - RicFaith
-  # You can move and rearrange entreis in weapons, armor and misc.txt  - RicFaith
+    # WeaponDescs are hardcoded to specific itemtypes.
+    # swor = WeaponDescSword, jave = WeaponDescJavelin, etc.
+    # Blunt Undead Damage is badly hardcoded. - RicFaith
+    # You can move and rearrange entreis in weapons, armor and misc.txt  - RicFaith
   * Weapons can get block, but you need to add animations for it and may need to use a state like weapon block - Char
   * Autostacking in belt: Health/Mana/Rejuvpotions are hardcoded to allow stacking even if not same type. - Kingpin
   * Weapons.txt and Armor.txt can have more then 1024 entries, but equipment racks are hardcoded to only look for weapon/armor entries up to 1024, so code editing is needed - Myhrginoc, in the txt file limits thread
