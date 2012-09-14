@@ -28,7 +28,7 @@ nos : no socket (for input)
 sock: # sockets (eg: sock=4)
 pre : prefix (row # -2 from magicprefix)
 suf : suffix (row # -2 from magicsuffix)
-qty : amount of same item (eg: hpot,qty=3 means 3 hp potions)
+qty : amount of same item (eg: hpot,qty=3 means 3 hp potions, input only)
 upg : upgrades item normal > exceptional > elite
 
  usetype: uses base type of input1 for output
