@@ -5,7 +5,7 @@ This resource originally appeared as a thread in the Phrozen Forums and we would
 <pre>
 Item Quality Params
 
-low: low quality
+ low: low quality
 bas: base item (1.10+) - input
 reg: base item (1.10+) - output
 exc: exceptional item (1.10+)
