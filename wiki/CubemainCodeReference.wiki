@@ -23,7 +23,7 @@ any: any item
 
 Others
 
-noe : not ethereal
+ noe : not ethereal
 nos : no socket (for input)
 sock: # sockets (eg: sock=4)
 pre : prefix (row # -2 from magicprefix)
