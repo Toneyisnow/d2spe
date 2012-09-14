@@ -36,7 +36,7 @@ useitem: uses item from input1 for output
 
 Other Mods (v1.12+):
 
-nrw: No runeword
+ nrw: No runeword
 uns: unsocket (destroys gems/whatever)
 rem: unsocket (removes gems/whatever)
 rep: repair (might need qty)
