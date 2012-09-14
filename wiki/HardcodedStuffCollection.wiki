@@ -1,14 +1,12 @@
-The following is reproduced from Doombreed-x's thread "[Collection] The hardcoded stuff" on the Phrozenkeep forums. 
-
-This is a community project to get all the hardcoded stuff from all the files into 1 thread, so people can check it. I'll check back on this thread once in a while, and edit this post to include everyones additions.  So if you know about hardcoded stuff, post it! Tell us what it is and exactly what part is harcoded, or give us more insight to a previous addition if you have it. I'll keep each thing under it's related file's heading as best I can. Also, please point out wrong info! 
+The following is reproduced from Doombreed-x's thread "[Collection] The hardcoded stuff" on the Phrozenkeep forums (Mar 11, 2007). 
 
 Generic equipement stuff:
 
-Item Files incl ItemTypes, Weapons, Armor, Misc:
-WeaponDescs are hardcoded to specific itemtypes.
-swor = WeaponDescSword, jave = WeaponDescJavelin, etc.
-Blunt Undead Damage is badly hardcoded. - RicFaith
-You can move and rearrange entreis in weapons, armor and misc.txt - RicFaith
+  * Item Files incl ItemTypes, Weapons, Armor, Misc:
+  WeaponDescs are hardcoded to specific itemtypes.
+  swor = WeaponDescSword, jave = WeaponDescJavelin, etc.
+  Blunt Undead Damage is badly hardcoded. - RicFaith
+  You can move and rearrange entreis in weapons, armor and misc.txt  - RicFaith
 Weapons can get block, but you need to add animations for it and may need to use a state like weapon block - Char
 Autostacking in belt: Health/Mana/Rejuvpotions are hardcoded to allow stacking even if not same type. - Kingpin
 Weapons.txt and Armor.txt can have more then 1024 entries, but equipment racks are hardcoded to only look for weapon/armor entries up to 1024, so code editing is needed - Myhrginoc, in the txt file limits thread (Here)
