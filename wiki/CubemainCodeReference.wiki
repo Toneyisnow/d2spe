@@ -39,7 +39,7 @@ uns: unsocket (destroys gems/whatever)
 rem: unsocket (removes gems/whatever)
 rep: repair (might need qty)
 rch: recharge (might need qty)
-mod: unclear (add mods to item? used for unique upgrade recipes)
+mod: transfers the modifiers from input1 to the output item
 }}}
 
 For additional information, an abbreviated replica of the aforementioned thread has been provided below: 
