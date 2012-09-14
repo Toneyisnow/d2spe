@@ -3,6 +3,7 @@
 This resource originally appeared as a thread in the Phrozen Forums and we would also like to thank !Sir_General, Myhrginoc and Ruvanal for their contributions to the list.
 
 <pre>
+
 Item Quality Params
 
 low: low quality
@@ -42,6 +43,7 @@ rem: unsocket (removes gems/whatever)
 rep: repair (might need qty)
 rch: recharge (might need qty)
 mod: transfers the modifiers from input1 to the output item
+
 </pre>
 
 For additional information, an abbreviated replica of the aforementioned thread has been provided below: 
