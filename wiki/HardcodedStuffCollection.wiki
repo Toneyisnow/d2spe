@@ -3,16 +3,16 @@ The following is reproduced from Doombreed-x's thread "[Collection] The hardcode
 Generic equipement stuff:
 
   * Item Files incl ItemTypes, Weapons, Armor, Misc:
-  WeaponDescs are hardcoded to specific itemtypes.
-  swor = WeaponDescSword, jave = WeaponDescJavelin, etc.
-  Blunt Undead Damage is badly hardcoded. - RicFaith
-  You can move and rearrange entreis in weapons, armor and misc.txt  - RicFaith
-Weapons can get block, but you need to add animations for it and may need to use a state like weapon block - Char
-Autostacking in belt: Health/Mana/Rejuvpotions are hardcoded to allow stacking even if not same type. - Kingpin
-Weapons.txt and Armor.txt can have more then 1024 entries, but equipment racks are hardcoded to only look for weapon/armor entries up to 1024, so code editing is needed - Myhrginoc, in the txt file limits thread (Here)
-There is a list of item codes that need to exist, as the ancients are hardcoded to wear equipment with those codes.
-The horadric cube uses a pspell function. Any other item given this pspell will also open up to the exact same cube space, you can't create new space with new cubes, without code editing. Also, the cube itself is the only item hardcoded to locate items inside itself when you drop an item on it, further cube items won't do this.
-Ethereal is an item flag. It can be set to true, but it can't be unset without CE.
+  # WeaponDescs are hardcoded to specific itemtypes.
+  # swor = WeaponDescSword, jave = WeaponDescJavelin, etc.
+  # Blunt Undead Damage is badly hardcoded. - RicFaith
+  # You can move and rearrange entreis in weapons, armor and misc.txt  - RicFaith
+  * Weapons can get block, but you need to add animations for it and may need to use a state like weapon block - Char
+  * Autostacking in belt: Health/Mana/Rejuvpotions are hardcoded to allow stacking even if not same type. - Kingpin
+  * Weapons.txt and Armor.txt can have more then 1024 entries, but equipment racks are hardcoded to only look for weapon/armor entries up to 1024, so code editing is needed - Myhrginoc, in the txt file limits thread
+  * There is a list of item codes that need to exist, as the ancients are hardcoded to wear equipment with those codes.
+  * The horadric cube uses a pspell function. Any other item given this pspell will also open up to the exact same cube space, you can't create new space with new cubes, without code editing. Also, the cube itself is the only item hardcoded to locate items inside itself when you drop an item on it, further cube items won't do this.
+  * Ethereal is an item flag. It can be set to true, but it can't be unset without CE.
 
 [color=FF9900]Skills.txt:[/color]
 Teleport is hardcoded to read certain values from it's original line in skills.txt, even if you clone it.
