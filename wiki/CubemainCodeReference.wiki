@@ -3,7 +3,7 @@
 This resource originally appeared as a thread in the Phrozen Forums and we would also like to thank !Sir_General, Myhrginoc and Ruvanal for their contributions to the list.
 
 {{{
-item quality params
+Item Quality Params
 
 low: low quality
 bas: base item (1.10+) - input
@@ -21,7 +21,7 @@ crf: crafted
 tmp: tempered item (1.10+)
 any: any item
 
-others
+Others
 
 noe : not ethereal
 nos : no socket (for input)
@@ -33,7 +33,8 @@ upg : upgrades item normal > exceptional > elite
 usetype: uses base type of input1 for output
 useitem: uses item from input 1
 
-Other mods from Cubemain.txt (v1.12+):
+Other Mods (v1.12+):
+
 nrw: No runeword
 uns: unsocket (destroys gems/whatever)
 rem: unsocket (removes gems/whatever)
