@@ -14,48 +14,59 @@ Generic equipement stuff:
   * The horadric cube uses a pspell function. Any other item given this pspell will also open up to the exact same cube space, you can't create new space with new cubes, without code editing. Also, the cube itself is the only item hardcoded to locate items inside itself when you drop an item on it, further cube items won't do this.
   * Ethereal is an item flag. It can be set to true, but it can't be unset without CE.
 
-[color=FF9900]Skills.txt:[/color]
-Teleport is hardcoded to read certain values from it's original line in skills.txt, even if you clone it.
-the weapon masteries for barbs use hardcoded stats that update all the time, and only those mastery stats update like that.
-the curses and auras used by monsters need to be on their original line, as the game uses hardcoded references with the cursed and aura enchanted properties.
-Monsters can't summon! Hydra is an exception obviously, but generally monsters can't summon anything without assertions, so don't try. Blizzard had to make special code for hydra to work properly. Same deal with blade sentinel and traps, as they are essentially summons.
 
-[color=FF9900]TreasureclassEX.txt[/color]
-gold needs to be the first line
-
-[color=FF9900]Levels.txt[/color]
-the moo moo farm level is hardcoded to its line - [color=999999]volf[/color]
-
-[color=FF9900]hireling.txt[/color]
-the descriptions for the hireling subtypes are hardcoded and use hardcoded references to the .tbl files. some of the strings seem to be hardcoded to string.tbl.[strhirespecialX], others to expansionstring.tbl.[StrMercExXX] - [color=999999]Char[/color]
-
-[color=FF9900]itemstatcost.txt[/color]
-elemental damages:the display of "adds XX-XX fire damage" and the others are hardcoded to use certain .tbl entries. the entries are found in string.tbl.[StrMod(element)DamageRange]. - [color=999999]Char[/color]
-all the passive_mastery_something stats seem to be badly hardcoded. they cannot accept negative values, and it seems like you cannot base op stats on them either for some reason i do not understand. there is probably quite a lot of hardcoded stuff in that file though, since the damagepercent line for example has to enhance the weapon damage, which is probably done by some hardcoded routine - [color=999999]Char[/color]
-for +to fire..poison e.tc skills you need to use same entry in itemstat. It's hardcoded to look into this specific stat. - [color=999999]kingpin[/color]
+Skills.txt:
+  * Teleport is hardcoded to read certain values from it's original line in skills.txt, even if you clone it.
+  * The weapon masteries for barbs use hardcoded stats that update all the time, and only those mastery stats update like that.
+  * The curses and auras used by monsters need to be on their original line, as the game uses hardcoded references with the cursed and aura enchanted properties.
+  * Monsters can't summon! Hydra is an exception obviously, but generally monsters can't summon anything without assertions, so don't try. Blizzard had to make special code for hydra to work properly. Same deal with blade sentinel and traps, as they are essentially summons.
 
 
-[color=FF9900]itemtypes.txt[/color]
-The h2h2 row and some (or all) lines before it have hardcoding, so don't remove them, and rearranging them may give errors. - [color=999999]Char[/color]
+TreasureclassEX.txt
+  * Gold needs to be the first line
 
-[color=FF9900]charstats:[/color]
-first item gets bonus in startskill
-no starting items can be magic, set, rare, unique, automagicked, etc. - [color=999999]RicFaith[/color]
 
-[color=FF9900]Levels:[/color]
-Waypoints can be added as long as the list isn't full, and they can be moved around as much as you want, just remember to remove them from the ds1's. - [color=999999]Kingpin[/color]
+Levels.txt
+  * The moo moo farm level is hardcoded to its line - volf
 
-[color=FF9900]Skilldesc:[/color]
-lots of the desclines have hardcoded text or hardcoded calcs. Here is more skilldesc stuff - [color=999999]RicFaith[/color]
-Certain skilldesc functions are hardcoded to read a table entry "like average firedamage over XXX seconds". - [color=999999]kingpin[/color]
 
-[color=FF9900]States:[/color]
-Freeze row is hardcoded to only work in the row its located in - [color=999999]kingpin[/color]
+hireling.txt:
+  * The descriptions for the hireling subtypes are hardcoded and use hardcoded references to the .tbl files. some of the strings seem to be hardcoded to string.tbl.[strhirespecialX], others to expansionstring.tbl.[StrMercExXX] - Char
 
-[color=FF9900]Sets:[/color]
-The cow king set is hardcoded to only be findable in the secret (ha) cow level - [color=999999]Brother Laz[/color]
 
-[color=FF9900]Sounds:[/color]
-There are groupings for sounds which are hardcoded so you can't insert sounds. You can't rearrange them either. - [color=999999]RicFaith[/color]
-sound effects that are played hardcoded like Akara's Ring sound is reading a hardcoded row. The effect it will have to rearrange the sounds will be that all hardcoded sounds will play wrong sound. - [color=999999]kingpin[/color]
-Also, in this file there is a limited range from rowX to end that are hardcoded to play music on client. I have wrote a thread in CE forum how to change this in past. - [color=999999]kingpin[/color]
+itemstatcost.txt:
+  * Elemental damages:the display of "adds XX-XX fire damage" and the others are hardcoded to use certain .tbl entries. the entries are found in string.tbl.[StrMod(element)DamageRange]. - [color=999999]Char[/color]
+  * All the passive_mastery_something stats seem to be badly hardcoded. they cannot accept negative values, and it seems like you cannot base op stats on them either for some reason i do not understand. there is probably quite a lot of hardcoded stuff in that file though, since the damagepercent line for example has to enhance the weapon damage, which is probably done by some hardcoded routine - [color=999999]Char[/color]
+  * For +to fire..poison e.tc skills you need to use same entry in itemstat. It's hardcoded to look into this specific stat. - kingpin
+
+
+itemtypes.txt:
+  * The h2h2 row and some (or all) lines before it have hardcoding, so don't remove them, and rearranging them may give errors. - Char
+
+
+charstats:
+  * First item gets bonus in startskill
+  * No starting items can be magic, set, rare, unique, automagicked, etc. - [color=999999]RicFaith[/color]
+
+
+Levels:
+  * Waypoints can be added as long as the list isn't full, and they can be moved around as much as you want, just remember to remove them from the ds1's. - Kingpin
+
+
+Skilldesc:
+  * Lots of the desclines have hardcoded text or hardcoded calcs. Here is more skilldesc stuff - RicFaith
+  * Certain skilldesc functions are hardcoded to read a table entry "like average firedamage over XXX seconds". - kingpin
+
+
+States:
+  * Freeze row is hardcoded to only work in the row its located in - kingpin
+
+
+Sets:
+  * The cow king set is hardcoded to only be findable in the secret (ha) cow level - Brother Laz
+
+
+Sounds:
+  * There are groupings for sounds which are hardcoded so you can't insert sounds. You can't rearrange them either. - RicFaith
+  * Sound effects that are played hardcoded like Akara's Ring sound is reading a hardcoded row. The effect it will have to rearrange the sounds will be that all hardcoded sounds will play wrong sound. - kingpin
+  * Also, in this file there is a limited range from rowX to end that are hardcoded to play music on client. I have wrote a thread in CE forum how to change this in past. - kingpin
