@@ -31,7 +31,7 @@ suf : suffix (row # -2 from magicsuffix)
 qty : amount of same item (eg: hpot,qty=3 means 3 hp potions)
 upg : upgrades item normal > exceptional > elite
 
-usetype: uses base type of input1 for output
+ usetype: uses base type of input1 for output
 useitem: uses item from input1 for output
 
 Other Mods (v1.12+):
