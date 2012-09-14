@@ -21,7 +21,7 @@ crf: crafted
 tmp: tempered item (1.10+)
 any: any item
 
-Others
+ Others
 
  noe : not ethereal
 nos : no socket (for input)
@@ -34,7 +34,7 @@ upg : upgrades item normal > exceptional > elite
  usetype: uses base type of input1 for output
 useitem: uses item from input1 for output
 
-Other Mods (v1.12+):
+ Other Mods (v1.12+):
 
  nrw: No runeword
 uns: unsocket (destroys gems/whatever)
